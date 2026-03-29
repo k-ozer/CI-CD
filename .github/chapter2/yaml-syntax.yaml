@@ -1,0 +1,16 @@
+# key value pairs
+name: Roberto Lopez
+age: 62
+job: Lecturer
+
+# lists
+hobbies:
+  - Reading
+  - Hiking
+  - Cooking
+
+# nested structures
+education:
+  degree: PhD in Computer Science
+  university: University of Example
+  graduation_year: 2000
