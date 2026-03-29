@@ -21,7 +21,7 @@ jobs:
 
     - name: install dependencies
       run: |
-        cd src/Chapter4
+        cd .github/workflows/ci.yaml
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then
           pip install -r requirements.txt
@@ -30,7 +30,7 @@ jobs:
 
     - name: run tests
       run: |
-        cd src/Chapter4
+        cd .github/workflows/ci.yaml
         python -m unittest discover
 
     - name: notify us of success
